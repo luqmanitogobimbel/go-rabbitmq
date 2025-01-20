@@ -7,6 +7,7 @@ import (
 	"strconv"
 )
 
+//tesd
 func main() {
 	connection, err := amqp091.Dial("amqp://guest:guest@localhost:5672/")
 	if err != nil {
